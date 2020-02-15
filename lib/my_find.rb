@@ -3,7 +3,7 @@ collection = (1..100).to_a
 
 def my_find(collection)
     
-  newcollection = []
+
  i = 0
   while i < collection.length
  
@@ -13,7 +13,7 @@ def my_find(collection)
      
   end
   
-  return newcollection
+  n
    
 end
 
