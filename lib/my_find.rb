@@ -1,6 +1,6 @@
 require 'pry'
 collection = (1..100).to_a
-
+newcollection = []
 def my_find(collection)
  i = 0
   while i < collection.length
