@@ -8,11 +8,7 @@ def my_find(collection)
     return collection[i]
     i = i + 1
   end
-  if collection[i].include?(true)
-    true
-  else 
-    false
-  end
+  
   
   
   
