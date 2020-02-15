@@ -10,7 +10,7 @@ def my_find(collection)
    return newcollection << yield(collection[i])
    
     i = i + 1
-    
+     binding.pry
   end
   
   return newcollection
