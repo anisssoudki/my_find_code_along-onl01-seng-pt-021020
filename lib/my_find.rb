@@ -10,7 +10,8 @@ def my_find(collection)
   end
 end
 
-#this code returns collection[i] if the i is divisible by 3 and 5 
+#this code returns collection[i] if the i is divisible by 3 and 5, i yielding to the block when the 
+#function is called
 
 
 my_find(collection) {|i| i % 3 == 0 and i % 5 == 0 }
