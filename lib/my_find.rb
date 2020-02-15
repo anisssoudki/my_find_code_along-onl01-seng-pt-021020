@@ -2,7 +2,7 @@ require 'pry'
 collection = (1..100).to_a
 
 def my_find(collection)
-     binding.pry
+    
   newcollection = []
  i = 0
   while i < collection.length
@@ -10,7 +10,7 @@ def my_find(collection)
    return newcollection << yield(collection[i])
    
     i = i + 1
-     binding.pry
+    
   end
   
   return newcollection
