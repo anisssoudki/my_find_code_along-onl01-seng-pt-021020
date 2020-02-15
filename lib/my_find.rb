@@ -12,6 +12,7 @@ def my_find(collection)
   end
   
   return newcollection
+    binding.pry
 end
 
 
